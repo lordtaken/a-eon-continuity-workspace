@@ -1,0 +1,36 @@
+{
+  "overall_signal": "red",
+  "expected_finding_count": 5,
+  "findings": [
+    {
+      "authority_id": "AUTH-001",
+      "severity": "critical",
+      "authority_quote": "The evacuation begins at 06:40 on 14 October 2147.",
+      "audited_quote": "At 06:15, the evacuation was already underway"
+    },
+    {
+      "authority_id": "AUTH-002",
+      "severity": "high",
+      "authority_quote": "Mara cannot bear weight on her left ankle until the medical seal is removed.",
+      "audited_quote": "putting her full weight on her left ankle"
+    },
+    {
+      "authority_id": "AUTH-003",
+      "severity": "critical",
+      "authority_quote": "The brass key remains sealed inside Locker 12; no character has access to it.",
+      "audited_quote": "Mara pulled the brass key from her pocket"
+    },
+    {
+      "authority_id": "AUTH-004",
+      "severity": "high",
+      "authority_quote": "Ivo has never met Captain Soren before the docking hearing.",
+      "audited_quote": "Ivo gave him their old three-tap handshake"
+    },
+    {
+      "authority_id": "AUTH-005",
+      "severity": "high",
+      "authority_quote": "The north bridge is closed after the glass collapse and cannot be crossed.",
+      "audited_quote": "Mara sprinted across the north bridge"
+    }
+  ]
+}

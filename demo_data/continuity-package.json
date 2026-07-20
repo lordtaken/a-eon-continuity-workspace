@@ -1,0 +1,78 @@
+{
+  "project_id": "DEMO-LANTERN-VAULT",
+  "title": "The Lantern Vault — Continuity Packet",
+  "version": "1.0",
+  "authority_order": [
+    "protected",
+    "active",
+    "provisional",
+    "deprecated"
+  ],
+  "records": [
+    {
+      "id": "AUTH-001",
+      "domain": "chronology",
+      "status": "protected",
+      "severity_if_breached": "critical",
+      "statement": "The evacuation begins at 06:40 on 14 October 2147.",
+      "source": {
+        "document": "Master Timeline",
+        "locator": "Day 18 · Event 04",
+        "quote": "The evacuation begins at 06:40 on 14 October 2147."
+      },
+      "notes": "No scene may depict the evacuation as underway before this time."
+    },
+    {
+      "id": "AUTH-002",
+      "domain": "character",
+      "status": "protected",
+      "severity_if_breached": "high",
+      "statement": "Mara cannot bear weight on her left ankle until the medical seal is removed.",
+      "source": {
+        "document": "Mara Character Sheet",
+        "locator": "Injuries · Current",
+        "quote": "Mara cannot bear weight on her left ankle until the medical seal is removed."
+      },
+      "notes": "The seal remains in place during this scene."
+    },
+    {
+      "id": "AUTH-003",
+      "domain": "object",
+      "status": "protected",
+      "severity_if_breached": "critical",
+      "statement": "The brass key remains sealed inside Locker 12; no character has access to it.",
+      "source": {
+        "document": "Object Register",
+        "locator": "OBJ-KEY-12",
+        "quote": "The brass key remains sealed inside Locker 12; no character has access to it."
+      },
+      "notes": "Access changes only after Scene 23."
+    },
+    {
+      "id": "AUTH-004",
+      "domain": "relationship",
+      "status": "active",
+      "severity_if_breached": "high",
+      "statement": "Ivo has never met Captain Soren before the docking hearing.",
+      "source": {
+        "document": "Relationship Matrix",
+        "locator": "Ivo ↔ Soren",
+        "quote": "Ivo has never met Captain Soren before the docking hearing."
+      },
+      "notes": "The submitted scene occurs before the hearing."
+    },
+    {
+      "id": "AUTH-005",
+      "domain": "location",
+      "status": "protected",
+      "severity_if_breached": "high",
+      "statement": "The north bridge is closed after the glass collapse and cannot be crossed.",
+      "source": {
+        "document": "Location State Register",
+        "locator": "North Bridge · Day 18",
+        "quote": "The north bridge is closed after the glass collapse and cannot be crossed."
+      },
+      "notes": "Closure persists through the docking hearing."
+    }
+  ]
+}

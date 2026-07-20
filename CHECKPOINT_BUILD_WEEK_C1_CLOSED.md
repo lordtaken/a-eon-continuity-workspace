@@ -1,0 +1,58 @@
+# Checkpoint — BUILD_WEEK_C1 Closed
+
+**Date:** 2026-07-19  
+**Product:** A-Eon Continuity Workspace  
+**Module:** Continuity Auditor  
+**Status:** `CLOSED_GREEN`  
+
+## P0 verification
+
+```text
+REPOSITORY_CREATED_FROM_SCRATCH: YES
+GIT_INITIALIZED_BEFORE_FUNCTIONAL_FILES: YES
+PYTHON_COMPILEALL: PASS
+PYTEST: 15 PASSED
+STREAMLIT_STARTUP: PASS
+STREAMLIT_APPLICATION_EXCEPTIONS: 0
+PROBLEMATIC_CASE: RED / 5 FINDINGS / 5 VALIDATED EVIDENCE PAIRS
+CLEAN_CASE: GREEN / 0 FINDINGS
+MARKDOWN_EXPORT: PASS
+JSON_EXPORT: PASS
+INVALID_EVIDENCE_EXCLUDED_FROM_SIGNAL: PASS
+```
+
+## Safety closure
+
+```text
+OPENAI_API_KEY_REQUIRED: NO
+LIVE_API_CALLS: ZERO
+OPENAI_SDK_INCLUDED: NO
+NETWORK_ROUTE_TO_OPENAI: NONE
+PRIVATE_CONTENT_INCLUDED: NO
+REAL_CANON_INCLUDED: NO
+ATLAS_CODE_OR_ASSETS_INCLUDED: NO
+WORK_PROTOTYPE_CODE_INCLUDED: NO
+AUTOMATIC_REWRITE: NONE
+DATABASE_OR_AUTHENTICATION: NONE
+DEPLOYMENT_OR_PUBLICATION: NONE
+```
+
+## Material result
+
+- Final repository file hashes: `FINAL_FILE_MANIFEST.json`
+- Deliverable archive: `AEON_BUILD_WEEK_CONTINUITY_WORKSPACE_CODEX_C1_20260719.zip`
+- Archive checksum: recorded in the sibling `.sha256` file outside the archive.
+- Temporary environments, Git metadata, caches, logs, earlier packages, and
+  Session IDs are excluded from the archive.
+
+## Decision
+
+All C1 P0 acceptance criteria are green. No P1 or M2 work was opened.
+
+```text
+NEXT_ELIGIBLE_OPERATION:
+BUILD_WEEK_M2 — PREPARACIÓN DE ENTREGA
+
+EXECUTE_NOW:
+NO
+```
